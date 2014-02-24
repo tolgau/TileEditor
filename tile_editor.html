@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="maps/map1.js"></script>
+<script type="text/javascript" src="rules.js"></script>
+<script type="text/javascript" src="edittable.js"></script>
+<script type="text/javascript" src="drawtable.js"></script>
+
+<script type="text/javascript">
+</script>
+<title>Tile Editor</title>
+</head>
+
+<body bgcolor="#333" onload="tableInsideId('container', mapTerrain1, 'grass');">
+
+<table cellpadding="0" cellspacing="0" align="center" style="border:solid 5px #999;"><tr><td><div id="container" style="position:relative; top:0px; left:0px;"></div></td><td id="controls" valign="top"><div id="controls"><button onclick="clickToolLand()" type="button">Land</button><button onclick="clickToolSea()" type="button">Sea</button><br /><button onclick="fillMap()" type="button">Fill</button><button onclick="clearMap()" type="button">Clear</button><br /><button onclick="savePane()" type="button">Save</button><br /></div></td></tr></table>
+<div align="center" id="test"></div>
+
+</body>
+</html>
